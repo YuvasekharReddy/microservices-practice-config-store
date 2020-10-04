@@ -4,4 +4,9 @@ spring:
     username: yuva
     password: yuva
     driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      ddl-auto: update
   
