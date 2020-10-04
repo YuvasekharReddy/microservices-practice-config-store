@@ -1,4 +1,3 @@
-
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/test
@@ -6,9 +5,9 @@ spring:
     password: yuva
     testWhileIdel: true
     validationQuery: SELECT 1
- jpa: 
-   show-sql: true
-   hibernate: 
-     namimg-strategy: org.hibernate.cfg.ImprovedNamingStrategy
-     ddl-auto: update  
-   database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  jpa: 
+    show-sql: true
+    hibernate: 
+      namimg-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+      ddl-auto: update  
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
